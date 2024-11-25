@@ -1,0 +1,18 @@
+Número: 7  
+Nome: Tela de Cada Matéria com Apresentação, Material e Bibliografia  
+Ator: Aluno  
+
+Pré Condição: O aluno está logado e acessou uma matéria.  
+Condição após: O aluno consulta os detalhes da matéria selecionada.  
+
+Fluxo:  
+1. O aluno acessa a página da matéria selecionada.  
+- Sistema: Exibe a apresentação da matéria.  
+- Sistema: Mostra links para materiais disponíveis e lista de bibliografia.  
+2. O aluno seleciona um material ou bibliografia para visualizar.  
+- Sistema: Exibe o conteúdo ou direciona para o link associado.
+3. O aluno lica no espaço vazio.
+- Sistema: Retorna ao passo 1.
+
+Fluxo de Exceção:  
+- Se não houver / não encontrar materiais ou bibliografias cadastrados, o sistema exibe uma mensagem indicando que o conteúdo está em construção.  

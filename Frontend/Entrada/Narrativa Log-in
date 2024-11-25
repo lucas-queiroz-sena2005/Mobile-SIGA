@@ -1,0 +1,18 @@
+Número: 1  
+Nome: Tela de Log-in/Início  
+Ator: Aluno  
+
+Pré Condição: O aplicativo está instalado e aberto.  
+Condição após: O aluno está autenticado no sistema.  
+
+Fluxo:  
+1. O aluno insere o login e a senha.  
+- Sistema: Valida os dados do aluno no banco de dados.  
+- Sistema: Exibe mensagem de sucesso ou erro.  
+2. O aluno confirma o login.  
+- Sistema: Redireciona para a página inicial do aplicativo.  
+- Sistema: Exibe informações básicas, como avisos e atalhos principais.  
+
+Fluxo de Exceção:  
+- Se os dados estiverem incorretos, o sistema exibe uma mensagem de erro e solicita a correção.  
+- Se houver problemas de conexão, o sistema exibe uma mensagem indicando indisponibilidade temporária.  

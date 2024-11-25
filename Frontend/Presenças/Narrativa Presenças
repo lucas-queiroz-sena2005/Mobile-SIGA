@@ -1,0 +1,17 @@
+Número: 4
+Nome: Tabela de presenças / faltas
+Ator: Aluno  
+
+Pré Condição: O aluno está logado no sistema.  
+Condição após: O aluno visualiza suas presenças e faltas.  
+
+Fluxo:  
+1. O aluno seleciona a opção "Notas e Presenças" no menu principal.
+- Sistema: Recupera os dados das matérias do aluno.  
+2. O aluno clica em uma das matérias.
+- Sistema: Exibe em ordem cronológica faltas / presenças do aluno.
+3. Aluno clica no espaço para retornar.
+- Sistema: Retorna ao passo 1.
+
+Fluxo de Exceção:  
+- Se os dados não estiverem disponíveis, o sistema exibe uma mensagem indicando que os dados estão em atualização.  

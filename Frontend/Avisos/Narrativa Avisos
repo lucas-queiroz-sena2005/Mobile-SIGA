@@ -1,1 +1,19 @@
+Número: 2  
+Nome: Acesso aos Avisos  
+Ator: Aluno  
 
+Pré Condição: O aluno está logado no sistema.  
+Condição após: O aluno visualiza os avisos importantes.  
+
+Fluxo:  
+1. O aluno seleciona o ícone de avisos no menu principal.  
+- Sistema: Recupera os avisos do banco de dados.  
+- Sistema: Exibe a lista de avisos mais recentes, organizados por data.  
+2. O aluno escolhe um aviso para ler.  
+- Sistema: Exibe o conteúdo detalhado do aviso.
+3. Clica fora da caixa.
+- Sistema: Fecha o aviso.
+- Sistema: Retorna ao passo 1.
+
+Fluxo de Exceção:  
+- Se não houver avisos disponíveis, o sistema exibe uma mensagem informando que não há novos avisos.  

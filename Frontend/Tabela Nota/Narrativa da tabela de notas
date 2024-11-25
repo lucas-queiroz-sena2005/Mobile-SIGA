@@ -1,0 +1,14 @@
+Número: 3  
+Nome: Tabela de Notas
+Ator: Aluno  
+
+Pré Condição: O aluno está logado no sistema.  
+Condição após: O aluno visualiza suas notas, presenças e faltas.  
+
+Fluxo:  
+1. O aluno seleciona a opção "Notas" no menu principal.
+- Sistema: Recupera os dados das matérias do aluno.
+- Sistema: Exibe uma tabela com as informações organizadas por matéria, dizendo se o aluno já foi aprovado.
+
+Fluxo de Exceção:  
+- Se os dados não estiverem disponíveis, o sistema exibe uma mensagem indicando que os dados estão em atualização.

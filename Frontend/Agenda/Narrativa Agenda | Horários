@@ -1,0 +1,16 @@
+Número: 5  
+Nome: Calendário com Informações Sobre Cada Dia
+Ator: Aluno  
+
+Pré Condição: O aluno está logado no sistema.  
+Condição após: O aluno consulta o calendário com informações sobre os dias letivos.  
+
+Fluxo:  
+1. O aluno seleciona a opção "Calendário" no menu principal.  
+- Sistema: Exibe o calendário do mês atual.  
+- Sistema: Destaca os dias com informações relevantes.  
+2. O aluno seleciona um dia específico.  
+- Sistema: Exibe os detalhes do dia, como matérias, eventos e conteúdos planejados.  
+
+Fluxo de Exceção:  
+- Se não houver informações para o dia, o sistema exibe uma mensagem indicando "Sem informações para este dia".  

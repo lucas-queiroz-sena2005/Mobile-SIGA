@@ -1,0 +1,63 @@
+Backlog do Produto - Sistema Mobile de Acesso ao SIGA
+
+Épico 1: Autenticação e Acesso ao Sistema
+- História 1.1: Como aluno, quero inserir meu login e senha para acessar o sistema.
+  - Critérios de Aceitação:
+    - O sistema deve validar os dados do aluno no banco de dados.
+    - O sistema deve exibir mensagens de sucesso ou erro adequadas.
+  - Prioridade: Alta
+
+- História 1.2: Como aluno, quero ser redirecionado à página inicial após o login bem-sucedido.
+  - Critérios de Aceitação:
+    - A página inicial deve exibir informações básicas como avisos e atalhos principais.
+  - Prioridade: Alta
+
+Épico 2: Acesso aos Avisos
+- História 2.1: Como aluno, quero visualizar os avisos mais recentes no sistema.
+  - Critérios de Aceitação:
+    - O sistema deve recuperar avisos do banco de dados e organizá-los por data.
+    - O sistema deve exibir uma lista de avisos.
+  - Prioridade: Média
+
+- História 2.2: Como aluno, quero visualizar o conteúdo detalhado de um aviso específico.
+  - Critérios de Aceitação:
+    - O sistema deve exibir o conteúdo do aviso ao ser selecionado.
+    - Deve ser possível retornar à lista de avisos.
+  - Prioridade: Média
+
+Épico 3: Consultar Notas e Presenças
+- História 3.1: Como aluno, quero visualizar minhas notas organizadas por matéria.
+  - Critérios de Aceitação:
+    - O sistema deve exibir uma tabela com as notas, presença e status de aprovação.
+    - Caso os dados estejam indisponíveis, deve exibir uma mensagem indicando atualização.
+  - Prioridade: Alta
+
+- História 3.2: Como aluno, quero visualizar minhas presenças e faltas detalhadas por matéria.
+  - Critérios de Aceitação:
+    - O sistema deve exibir a lista de presenças/faltas em ordem cronológica.
+    - Caso os dados estejam indisponíveis, deve exibir uma mensagem indicando atualização.
+  - Prioridade: Média
+
+Épico 4: Consultar Calendário Acadêmico
+- História 4.1: Como aluno, quero visualizar o calendário do mês atual com dias destacados.
+  - Critérios de Aceitação:
+    - O sistema deve exibir o calendário com destaque nos dias relevantes.
+  - Prioridade: Média
+
+- História 4.2: Como aluno, quero visualizar informações detalhadas sobre um dia específico no calendário.
+  - Critérios de Aceitação:
+    - O sistema deve exibir matérias, eventos ou conteúdos associados ao dia.
+    - Caso não haja informações, deve exibir uma mensagem adequada.
+  - Prioridade: Média
+
+Épico 5: Detalhes da Matéria
+- História 5.1: Como aluno, quero acessar a apresentação de uma matéria.
+  - Critérios de Aceitação:
+    - O sistema deve exibir a apresentação ao selecionar uma matéria.
+  - Prioridade: Média
+
+- História 5.2: Como aluno, quero acessar os materiais disponíveis e a bibliografia de uma matéria.
+  - Critérios de Aceitação:
+    - O sistema deve exibir links ou informações associadas a materiais e bibliografias.
+    - Caso não haja conteúdo disponível, deve exibir uma mensagem indicando construção.
+  - Prioridade: Média

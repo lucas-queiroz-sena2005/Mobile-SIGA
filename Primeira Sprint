@@ -1,0 +1,15 @@
+A Sprint 1 terá duração de 2 semanas.
+Focaremos em funcionalidades essenciais para o funcionamento básico do aplicativo.
+
+Objetivo da Sprint 1: Implementar o fluxo de login e a exibição de avisos institucionais.
+
+Histórias e Tarefas Selecionadas:
+
+1.Tela de Login:
+Tarefa 1.1: Criar a interface da tela de login (2 dias).
+Tarefa 1.2: Implementar a validação de credenciais no banco de dados (3 dias).
+Tarefa 1.3: Criar a lógica de redirecionamento para a tela inicial (1 dia).
+
+2. Avisos:
+Tarefa 2.1: Criar a interface para exibir os avisos (2 dias).
+Tarefa 2.2: Implementar a funcionalidade de detalhamento ao clicar em um aviso (2 dias).
